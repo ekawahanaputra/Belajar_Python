@@ -25,4 +25,11 @@ print("\n")
 print(dataKu.describe(include = "O"))
 
 
+# 3. Menghitung jumlah index pada dataframe
+totalBaris = len(dataKu.index)
+totalKolom = len(dataKu.columns)
+print("\nJumlah Baris = ", totalBaris)
+print("\nJumlah Kolom = ", totalKolom)
+
+
 # SELESAI
